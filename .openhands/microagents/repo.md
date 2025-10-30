@@ -1,3 +1,7 @@
+<DATABASE>
+A PostgreSQL database has been provisioned for this project. Access it using the environment variable `POSTGRES_DATABASE_URL`, which contains the full authenticated connection string to your dedicated database instance.
+</DATABASE>
+
 <PORT>
 For any web application, use the port specified by the environment variable `$APP_PORT_1`. DO NOT HARD CODE PORT NUMBERS.
 </PORT>
@@ -18,12 +22,6 @@ cd "$(dirname "$0")"
 ```
 </START_SCRIPT>
 
-
-This version:
-- Removes the Node.js-specific example from the requirements
-- Uses generic `<command_to_run_server>` placeholder in the example
-- Keeps the bash script structure clear without being tied to any particular runtime
-- Works whether they're running Node.js, Python, Go, Ruby, or any other server
 <AUTONOMY>
 Complete this task autonomously without requesting user assistance. Handle all implementation decisions and requirements independently.
 </AUTONOMY>
@@ -63,6 +61,10 @@ The click count must persist across page refreshes and server restarts.
 
 Note: The PRD content is also available in `./prd.md`.
 </PRD>
+
+<PRD_STATUS>
+As you are implementing the features, feel free to keep a `prd-status.md` file to help you remember which features have been implemented as you go. Note that you are *required* to implement everything in the PRD to the exact same user flow without leaving anything else unimplemented or adding additional features.
+</PRD_STATUS>
 
 <ASSETS>
 If any assets are required to build this application, they can be found in the `assets/` folder.
