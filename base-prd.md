@@ -1,5 +1,6 @@
-Create a web application where on the main page where there are two elements
-- A label: denoting the number of times the button has been clicked.
-- A button: the button increments the counts displayed at the label
+Create a web application with a main page containing two elements:
+1. A label displaying the number of times the button has been clicked
+2. A button that increments the count displayed in the label
+3. An image (assets/cat.jpg)
 
-Please note that this count should be persisted.
+The click count must persist across page refreshes and server restarts.
